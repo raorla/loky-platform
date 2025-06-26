@@ -1,7 +1,3 @@
-Voici le contenu formaté en Markdown, idéal pour un `README.md`.
-
------
-
 # Loky – Dossier de location certifié et confidentiel
 
 ## 🎯 Problème identifié
@@ -105,8 +101,31 @@ En parallèle, Loky vérifie que **chaque bien et chaque agence est légitime**,
 
 ## 💰 Modèle économique
 
-| Cible | Monétisation |
-| :--- | :--- |
-| **Locataires** | 1er dossier gratuit, puis forfait ou abonnement (ex. 5€/mois). |
+| Cible              | Monétisation                                                                     |
+| :----------------- | :------------------------------------------------------------------------------- |
+| **Locataires** | 1er dossier gratuit, puis forfait ou abonnement (ex. 5€/mois).                   |
 | **Agences** | Dashboard professionnel avec accès illimité aux fonctionnalités de vérification. |
-| **Écosystème Web3** | Plateforme NFT de preuve exportable pour le scoring DeFi ou d'autres cas d’usage. |
+| **Écosystème Web3** | Plateforme NFT de preuve exportable pour le scoring DeFi ou d'autres cas d’usage.  |
+
+-----
+
+## ⚙️ Installation & Démarrage
+
+Pour lancer le projet en local :
+
+1.  **Assurez-vous d'avoir [pnpm](https://pnpm.io/fr/installation) installé.**
+
+2.  **Installez les dépendances du projet :**
+
+    ```bash
+    pnpm install
+    ```
+
+3.  **Lancez le serveur de développement :**
+
+    ```bash
+    pnpm dev
+    ```
+
+
+
