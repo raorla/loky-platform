@@ -1,0 +1,6 @@
+export { DocumentDataProtector } from './DocumentDataProtector'
+export { IExecDataProtectorStatus } from './IExecDataProtectorStatus'
+export { DataProtectionModal } from './DataProtectionModal'
+export { default as DebugPanel } from './DebugPanel'
+export { GrantAccessModal } from './GrantAccessModal'
+export { default as useIExecDataProtector } from '../../hooks/useIExecDataProtector'
