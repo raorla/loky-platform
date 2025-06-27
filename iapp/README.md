@@ -23,10 +23,11 @@ docker build --progress plain -t loky .
 ```
 EXPERIMENTAL_TDX_APP=1 iapp test --protectedData "dossier"
 EXPERIMENTAL_TDX_APP=1 iapp deploy
-EXPERIMENTAL_TDX_APP=1 iapp run --protectedData "<address>"
+EXPERIMENTAL_TDX_APP=1 iapp run <app-address> --protectedData "<dataset-address>"
 ```
 
 ## What could be improved ?
 
 - Improve borsh-deser binary, a Rust binary to retrieve data from a protected data
 - Make it more convenient to check different AI models
+- Work on allowing user to provide PDF and adding tools to convert PDF to an AI compatible format
