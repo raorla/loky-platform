@@ -31,7 +31,7 @@ En parallèle, Loky vérifie que **chaque bien et chaque agence est légitime**,
 
 **Résultat :** Jean peut postuler en toute confiance, en un seul clic, sans jamais exposer ses données sensibles.
 
-> *Si Jean peut le faire, tout le monde peut le faire.!*
+> *Si Jean peut le faire, tout le monde peut le faire!*
 
 -----
 
