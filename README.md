@@ -106,7 +106,7 @@ En parallèle, Loky vérifie que **chaque bien et chaque agence est légitime**,
 | Cible           | Monétisation                                                                                                     |
 | :-------------- | :--------------------------------------------------------------------------------------------------------------- |
 | **Locataires**  | Gratuit : création et partage de dossier illimités, aucune restriction ni frais caché.                           |
-| **Agences**     | Abonnement mensuel selon la taille de l’agence :<br>- Starter : 49 €/mois (10 biens / 1 utilisateur)<br>- Pro : 149 €/mois (50 biens / 3 utilisateurs)<br>- Elite : 299 €/mois (biens illimités / 10 utilisateurs + API). |
+| **Agences**     | Abonnement mensuel selon la taille de l’agence :<br>- Starter : 49 €/mois (10 biens / 1 utilisateur)<br>- Pro : 149 €/mois (50 biens / 3 utilisateurs)<br>- Agence+ : 299 €/mois (biens illimités / 10 utilisateurs + API - intégration CRM). |
 | **Futur (données agrégées)** | Datasets anonymisés sur les tendances locatives, accessibles par abonnement ou licence, dans le respect du RGPD. |
 
 -----
