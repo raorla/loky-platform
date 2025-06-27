@@ -109,6 +109,20 @@ En parallèle, Loky vérifie que **chaque bien et chaque agence est légitime**,
 
 -----
 
+## 📚 Ressources de présentation
+
+Vous trouverez dans le dossier `ressources` :
+
+- 🎞️ [Loky Video.mp4](./ressources/Loky%20Video.mp4)  
+  *Une courte vidéo qui illustre l’expérience Loky et la valeur ajoutée de la plateforme.*
+
+- 📑 [Loky Presentation.pdf](./ressources/Loky%20Presentation.pdf)  
+  *La présentation complète du projet Loky : concept, business model, fonctionnalités et storytelling.*
+
+N’hésitez pas à consulter ces supports pour mieux comprendre Loky !
+
+-----
+
 ## ⚙️ Installation & Démarrage
 
 Pour lancer le projet en local :
