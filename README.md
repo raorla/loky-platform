@@ -94,7 +94,7 @@ En parallèle, Loky vérifie que **chaque bien et chaque agence est légitime**,
   * **Réutilisation du dossier :** 1 action = 10 candidatures.
   * **Partage facile et sécurisé :** via lien, QR code, ou même un NFT.
   * **Badge de certification** pour les agences et les biens.
-  * **UX pensée pour la Gen Z :** simple, rapide et mobile-first.
+  * **UX pensée pour la Gen Z :** simple, rapide et responsive.
   * **API et intégrations futures :** possibilité de se connecter à des simulateurs, FranceConnect, etc.
 
 -----
