@@ -22,6 +22,8 @@ docker build --progress plain -t loky .
 
 ```
 EXPERIMENTAL_TDX_APP=1 iapp test --protectedData "dossier"
+EXPERIMENTAL_TDX_APP=1 iapp deploy
+EXPERIMENTAL_TDX_APP=1 iapp run --protectedData "<address>"
 ```
 
 ## What could be improved ?
