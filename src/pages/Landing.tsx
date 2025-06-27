@@ -20,8 +20,13 @@ import {
 } from 'lucide-react';
 
 const Landing = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-loky-cream via-loky-background to-loky-beige">
+  console.log('🏠 Landing component mounted');
+  
+  try {
+    console.log('🎨 Starting Landing render...');
+    
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-loky-cream via-loky-background to-loky-beige">
       {/* Header avec navigation simplifiée */}
       <header className="bg-loky-background/90 backdrop-blur-md border-b border-loky-beige/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,7 +121,7 @@ const Landing = () => {
             <div className="relative mx-auto mt-10 max-w-lg lg:col-span-5 lg:mx-0 lg:mt-0 xl:col-span-6">
               <div className="relative">
                 {/* Interface mockup */}
-                <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-loky-beige loky-card-float loky-card-appear">
+                <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-loky-beige loky-card-float loky-card-appear loky-card-send">
                   <div className="bg-loky-gradient p-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
@@ -349,6 +354,10 @@ const Landing = () => {
       </section>
     </div>
   );
+  } catch (error) {
+    console.error('❌ Error rendering Landing:', error);
+    return <div className="p-8 text-center text-red-600">Erreur lors du chargement de la page d'accueil: {error.message}</div>;
+  }
 };
 
 export default Landing;
