@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 
 const Navigation = () => {
+  console.log('🧭 Navigation component rendered');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const { profile } = useUserProfile();

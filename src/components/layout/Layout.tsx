@@ -9,7 +9,9 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
-  const isLandingPage = location.pathname === '/';
+  const isLandingPage = location.pathname === '/' || location.pathname === '/landing';
+  
+  console.log('🏗️ Layout render - pathname:', location.pathname, 'isLandingPage:', isLandingPage);
 
   return (
     <div className="min-h-screen flex flex-col">
