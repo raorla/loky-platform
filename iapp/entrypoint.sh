@@ -13,4 +13,4 @@ echo "images"
 ollama ls
 
 echo "run"
-ollama run gemma3:4b "Peux-tu analyser les données de ces différents fichiers pour un bail locatif ? $(/borsh-deser)" | tee $IEXEC_OUT/result.txt
+ollama run gemma3:1b "Peux-tu analyser les données de ces différents fichiers pour un bail locatif ? $(/borsh-deser)" | tee $IEXEC_OUT/result.txt
